@@ -1,0 +1,100 @@
+body {
+    background-color: #003049;
+    color: #EAE2B7;
+}
+
+body nav label {
+    font-size: 16px;
+    color: #EAE2B7;
+}
+
+#search {
+    font-size: 12pt;
+    padding: 5px 5px;
+    background-color: #003049;
+    border: 1px solid #EAE2B7;
+    border-radius: 5px;
+    color: #EAE2B7;
+}
+
+::placeholder {
+    color: #EAE2B7;
+    opacity: 80%;
+}
+
+#searchbtn {
+    background-color: #D62828;
+    color: #EAE2B7;
+    font-size: 12pt;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+}
+
+h1 {
+    font-size: 32pt;
+    color: #FCBF49;
+}
+
+h2 {
+    font-size: 24pt;
+    color: #F77F00;
+}
+
+span a {
+    color: #D62828;
+}
+
+.post button {
+    color: #EAE2B7;
+    background-color: #D62828;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+p {
+    color: #EAE2B7;
+}
+
+footer nav ul li a {
+    color: #EAE2B7;
+}
+
+footer nav ul li a:hover {
+    color: #FCBF49;
+}
+
+footer a {
+    color: #FCBF49;
+}
+
+input[type="password"] {
+    color: #D62828;
+}
+
+.post button:hover {
+    color: #003049;
+    background-color: #F77F00;
+}
+
+.post button:active {
+    color: #003049;
+    background-color: #FCBF49;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #003080;
+}
+
+h2::first-letter {
+    font-size: 48px;
+}
+
+p::first-line {
+    color: #FCBF49;
+}
+
+::selection {
+    background-color: red;
+}
